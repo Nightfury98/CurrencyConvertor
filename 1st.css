@@ -1,0 +1,16 @@
+head{
+    border: 2px solid bisque;
+ }
+ h2{
+     color:aquamarine ;
+ }
+ .col{
+    border: 2px solid black;
+    width: 500px;
+    text-align: center;
+    margin-left: 350px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-bottom: 50px;
+ background-image: url('https://images.unsplash.com/photo-1580519542036-c47de6196ba5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y3VycmVuY3l8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60.jpg');
+ }

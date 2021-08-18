@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency</title>
+    <link rel="stylesheet" href="1st.css">
+</head>
+<body>
+<script src="1st.js"></script> 
+    <div class="col">
+        <h1> Currency Converter</h1>
+        <div class="form-group">
+            <h2>Select Currency 
+            <select onchange="Currency(); Calculate()" class="form" id="curr" style="width:30%;">
+              <option value="" disabled selected hidden >Select One</option>
+                <option value="Dollar">Dollar</option>
+                <option value="Pound">Pound</option>
+                <option value="Euro">Euro</option>
+                <option value="Yen">Yen</option>
+            </select>
+            </h2>
+            <h2>Enter Amount
+            <input type="number" oninput="Calculate()" class="form" id="amount1"/></h2>  
+        </div>
+        <div class="form-group">
+            <h2>Indian Rupees
+            <input type="number" class="form" id="inr1" disabled="disabled"/></h2>
+        </div>
+    </div>
+
+
+</body>
+</html>
